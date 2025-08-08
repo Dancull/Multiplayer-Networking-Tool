@@ -1,0 +1,283 @@
+11:48:47.845 [main                     ] DEBUG Logger               - Configured Logger
+11:48:47.848 [main                     ] DEBUG GameApplication      - Logging settings
+Title: Pong
+Version: 1.0
+Width: 800
+Height: 600
+Fullscreen: false
+Intro: false
+Profiling: false
+Single step:false
+App Mode: DEBUG
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.app.scene.SceneFactory
+
+11:48:48.106 [JavaFX Application Thread] DEBUG FXGLApplication      - Initializing FXGL
+11:48:48.109 [JavaFX Application Thread] INFO  Engine               - FXGL-11.11 (08.09.2020 18.00) on WINDOWS (J:23 FX:14)
+11:48:48.109 [JavaFX Application Thread] DEBUG Engine               - JRE Vendor Name: Oracle Corporation
+11:48:48.109 [JavaFX Application Thread] DEBUG Engine               - Running on OS: Windows 11 version 10.0
+11:48:48.109 [JavaFX Application Thread] DEBUG Engine               - Architecture: amd64
+11:48:48.109 [JavaFX Application Thread] INFO  Engine               - Source code and latest versions at: https://github.com/AlmasB/FXGL
+11:48:48.109 [JavaFX Application Thread] INFO  Engine               -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+11:48:48.171 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+11:48:48.201 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 800.0 x 600.0
+11:48:48.201 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    800.0 x 600.0
+11:48:48.201 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+11:48:48.202 [JavaFX Application Thread] DEBUG MainWindow           - Set initial scene to StartupScene
+11:48:48.204 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+11:48:48.264 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (16.0, 39.0)
+11:48:48.264 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 800.0 x 600.0
+11:48:48.264 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+11:48:48.264 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 800.0 x 600.0
+11:48:48.264 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 816.0 x 639.0
+11:48:48.269 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing environment variables
+11:48:48.301 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Applying CSS: fxgl_dark.css
+11:48:48.302 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/ui/css/fxgl_dark.css
+11:48:48.322 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Initializing application scenes
+11:48:48.356 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+11:48:48.396 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=600, physics.ppm=50.0
+11:48:48.397 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 800x600
+11:48:48.414 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/textures/particles/trace_horizontal.png
+11:48:48.439 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createMenuBodyGameMenu()
+11:48:48.447 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createOptionsMenu()
+11:48:48.450 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/textures/particles/smoke.png
+11:48:48.485 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Application scenes initialized
+11:48:48.500 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Loading FXGL system data
+11:48:48.503 [FXGL Background Thread 1 ] DEBUG FileSystemAccess     - Reading from: C:\Users\danie\Downloads\SDLMultiplayerProject-main\CI628-PongServer-master\system\fxgl.bundle
+11:48:48.509 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Bundle FXGL: {}
+11:48:48.509 [FXGL Background Thread 1 ] DEBUG UpdaterService       - Checking for updates
+11:48:48.511 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Loading fonts
+11:48:48.511 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/ui/fonts/pong.ttf
+11:48:48.512 [FXGL Background Thread 1 ] DEBUG FXGLApplication      - Loading default localization
+11:48:48.512 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/languages/english.lang
+11:48:48.543 [FXGL Background Thread 1 ] INFO  FXGLApplication      - FXGL initialization took: 0.275 sec
+11:48:48.544 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/ui/fonts/Abel-Regular.ttf
+11:48:48.550 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/ui/fonts/lucida_console.ttf
+11:48:48.553 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Up1 - W
+11:48:48.553 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Down1 - S
+11:48:48.553 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Up2 - I
+11:48:48.553 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Down2 - K
+11:48:48.553 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/textures/fxgl_icon.png
+11:48:48.559 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/ui/fonts/Courier-Prime.ttf
+11:48:48.570 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/ui/cursors/fxgl_default.png
+11:48:48.571 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+11:48:48.572 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+11:48:48.572 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+11:48:48.572 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Toggle Debug Camera - CTRL+C
+11:48:48.575 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+11:48:48.575 [JavaFX Application Thread] DEBUG GameApplicationServi - Starting new game
+11:48:48.576 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+11:48:48.586 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from StartupScene and adding to FXGLLoadingScene
+11:48:48.587 [JavaFX Application Thread] DEBUG MainWindow           - StartupScene -> FXGLLoadingScene
+11:48:48.587 [JavaFX Application Thread] DEBUG GameApplicationServi - Clearing previous game
+11:48:48.587 [JavaFX Application Thread] DEBUG GameScene            - Clearing game scene
+11:48:48.587 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+11:48:48.587 [JavaFX Application Thread] DEBUG PhysicsWorld         - Clearing physics world
+11:48:48.589 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Initializing game
+11:48:48.591 [JavaFX Application Thread] DEBUG FXGLApplication      - Registering font factories with UI factory
+11:48:48.639 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: /assets/ui/main.fxml
+11:48:48.640 [Thread-4                 ] DEBUG TCPServer            - Starting to listen at: 55555 type: class java.lang.String
+11:48:48.693 [FXGL Background Thread 4 ] INFO  FXGLApplication      - Game initialization took: 0.104 sec
+11:48:48.694 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+11:48:48.705 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLLoadingScene and adding to GameScene
+11:48:48.705 [JavaFX Application Thread] DEBUG MainWindow           - FXGLLoadingScene -> GameScene
+11:48:49.090 [FXGL Background Thread 2 ] INFO  UpdaterService       - Your current version:  11.11
+11:48:49.091 [FXGL Background Thread 2 ] INFO  UpdaterService       - Latest stable version: 21+dev-SNAPSHOT
+11:48:51.511 [FXGL Background Thread 3 ] DEBUG Engine               - Logging environment variables
+11:48:51.511 [FXGL Background Thread 3 ] DEBUG Engine               - achievements: []
+11:48:51.511 [FXGL Background Thread 3 ] DEBUG Engine               - appIcon: fxgl_icon.png
+11:48:51.512 [FXGL Background Thread 3 ] DEBUG Engine               - applicationMode: DEBUG
+11:48:51.512 [FXGL Background Thread 3 ] DEBUG Engine               - cSSList: [fxgl_dark.css]
+11:48:51.512 [FXGL Background Thread 3 ] DEBUG Engine               - configClass: Optional.empty
+11:48:51.512 [FXGL Background Thread 3 ] DEBUG Engine               - credits: []
+11:48:51.512 [FXGL Background Thread 3 ] DEBUG Engine               - devBBoxColorProperty: ObjectProperty [value: 0xff0000ff]
+11:48:51.512 [FXGL Background Thread 3 ] DEBUG Engine               - devEnableDebugCameraProperty: BooleanProperty [value: false]
+11:48:51.512 [FXGL Background Thread 3 ] DEBUG Engine               - devSensorColorProperty: ObjectProperty [value: 0xffff00ff]
+11:48:51.513 [FXGL Background Thread 3 ] DEBUG Engine               - devShowBBoxProperty: BooleanProperty [value: false]
+11:48:51.513 [FXGL Background Thread 3 ] DEBUG Engine               - devShowPositionProperty: BooleanProperty [value: false]
+11:48:51.513 [FXGL Background Thread 3 ] DEBUG Engine               - enabledMenuItems: []
+11:48:51.513 [FXGL Background Thread 3 ] DEBUG Engine               - engineServices: [class com.almasb.fxgl.app.FXGLApplication$GameApplicationService, class com.almasb.fxgl.app.services.FXGLDialogService, class com.almasb.fxgl.app.services.IOTaskExecutorService, class com.almasb.fxgl.event.EventBusService, class com.almasb.fxgl.io.FileSystemService, class com.almasb.fxgl.localization.LocalizationService, class com.almasb.fxgl.app.services.FXGLAssetLoaderService, class com.almasb.fxgl.app.services.SystemBundleService, class com.almasb.fxgl.profile.SaveLoadService, class com.almasb.fxgl.ui.FXGLUIFactoryServiceProvider, class com.almasb.fxgl.ui.FXGLDialogFactoryServiceProvider, class com.almasb.fxgl.audio.AudioPlayer, class com.almasb.fxgl.notification.impl.NotificationServiceProvider, class com.almasb.fxgl.achievement.AchievementService, class com.almasb.fxgl.cutscene.CutsceneService, class com.almasb.fxgl.minigames.MiniGameService, class com.almasb.fxgl.net.NetService, class com.almasb.fxgl.app.services.UpdaterService, class com.almasb.fxgl.dev.DevService]
+11:48:51.513 [FXGL Background Thread 3 ] DEBUG Engine               - fontGame: Abel-Regular.ttf
+11:48:51.513 [FXGL Background Thread 3 ] DEBUG Engine               - fontMono: lucida_console.ttf
+11:48:51.513 [FXGL Background Thread 3 ] DEBUG Engine               - fontText: Courier-Prime.ttf
+11:48:51.513 [FXGL Background Thread 3 ] DEBUG Engine               - fontUI: pong.ttf
+11:48:51.513 [FXGL Background Thread 3 ] DEBUG Engine               - fullScreen: BooleanProperty [value: false]
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - gameDifficulty: MEDIUM
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - gameDifficultyProperty: ObjectProperty [value: MEDIUM]
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - globalMusicVolume: 0.5
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - globalMusicVolumeProperty: DoubleProperty [value: 0.5]
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - globalSoundVolume: 0.5
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - globalSoundVolumeProperty: DoubleProperty [value: 0.5]
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - height: 600
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isAndroid: false
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isBrowser: false
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isClickFeedbackEnabled: false
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isCloseConfirmation: false
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isDesktop: true
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isDeveloperMenuEnabled: false
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isEntityPreloadEnabled: true
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isExperimentalNative: false
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isExperimentalTiledLargeMap: false
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isFileSystemWriteAllowed: true
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isFullScreenAllowed: false
+11:48:51.514 [FXGL Background Thread 3 ] DEBUG Engine               - isFullScreenFromStart: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isGameMenuEnabled: true
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isIOS: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isIntroEnabled: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isLinux: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isMac: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isMainMenuEnabled: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isManualResizeEnabled: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isMobile: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isPreserveResizeRatio: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isProfilingEnabled: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isSingleStep: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isUserProfileEnabled: false
+11:48:51.515 [FXGL Background Thread 3 ] DEBUG Engine               - isWindows: true
+11:48:51.516 [FXGL Background Thread 3 ] DEBUG Engine               - language: ObjectProperty [value: ENGLISH]
+11:48:51.516 [FXGL Background Thread 3 ] DEBUG Engine               - menuKey: ESCAPE
+11:48:51.516 [FXGL Background Thread 3 ] DEBUG Engine               - notificationViewClass: class com.almasb.fxgl.notification.view.XboxNotificationView
+11:48:51.517 [FXGL Background Thread 3 ] DEBUG Engine               - pixelsPerMeter: 50.0
+11:48:51.517 [FXGL Background Thread 3 ] DEBUG Engine               - platform: WINDOWS
+11:48:51.517 [FXGL Background Thread 3 ] DEBUG Engine               - profileDir: profiles/
+11:48:51.517 [FXGL Background Thread 3 ] DEBUG Engine               - profileName: StringProperty [value: DEFAULT]
+11:48:51.517 [FXGL Background Thread 3 ] DEBUG Engine               - randomSeed: -1
+11:48:51.517 [FXGL Background Thread 3 ] DEBUG Engine               - runtimeInfo: RuntimeInfo(platform=WINDOWS, version=11.11, build=08.09.2020 18.00)
+11:48:51.517 [FXGL Background Thread 3 ] DEBUG Engine               - saveFileExt: sav
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - sceneFactory: com.almasb.fxgl.app.scene.SceneFactory@7bb6539f
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - secondsIn24h: 60
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - soundMenuBack: menu/back.wav
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - soundMenuPress: menu/press.wav
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - soundMenuSelect: menu/select.wav
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - soundNotification: core/notification.wav
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - stageStyle: DECORATED
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - supportedLanguages: [ENGLISH, FRENCH, GERMAN, HUNGARIAN, RUSSIAN]
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - title: Pong
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - urlGithub: https://github.com/AlmasB/FXGL
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - urlLeaderboard: http://fxgl-top.herokuapp.com/
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - urlPOM: https://raw.githubusercontent.com/AlmasB/FXGL/master/pom.xml
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - version: 1.0
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - versionCheckDays: 7
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - width: 800
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - Logging services
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.FXGLApplication$GameApplicationService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.FXGLDialogService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.IOTaskExecutorService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.event.EventBusService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.io.FileSystemService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.localization.LocalizationService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.FXGLAssetLoaderService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.SystemBundleService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.profile.SaveLoadService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.ui.FXGLUIFactoryServiceProvider
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.ui.FXGLDialogFactoryServiceProvider
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.audio.AudioPlayer
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.notification.impl.NotificationServiceProvider
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.achievement.AchievementService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.cutscene.CutsceneService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.minigames.MiniGameService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.net.NetService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.UpdaterService
+11:48:51.518 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.dev.DevService
+11:49:07.770 [JavaFX Application Thread] DEBUG LoopRunner           - Pausing loop
+11:50:27.726 [Thread-4                 ] DEBUG Endpoint             - TCPServer opening new connection (1) from /127.0.0.1:55587 type: class java.lang.String
+11:50:27.727 [Thread-4                 ] DEBUG Endpoint             - TCPServer successfully opened connection (1)
+11:50:27.727 [TCPServer_SendThread-1   ] DEBUG Writers              - Getting TCPMessageWriter for class java.lang.String
+11:50:27.728 [TCPServer_RecvThread-1   ] DEBUG Readers              - Getting TCPMessageReader for class java.lang.String
+11:50:27.728 [TCPServer_SendThread-1   ] DEBUG Writers              - Constructed TCPMessageWriter for class java.lang.String: MessageWriterS
+11:50:27.728 [TCPServer_RecvThread-1   ] DEBUG Readers              - Constructed MessageReader for class java.lang.String: MessageReaderS
+11:50:30.161 [Thread-4                 ] DEBUG Endpoint             - TCPServer opening new connection (2) from /127.0.0.1:55594 type: class java.lang.String
+11:50:30.162 [Thread-4                 ] DEBUG Endpoint             - TCPServer successfully opened connection (2)
+11:50:30.162 [TCPServer_SendThread-2   ] DEBUG Writers              - Getting TCPMessageWriter for class java.lang.String
+11:50:30.162 [TCPServer_RecvThread-2   ] DEBUG Readers              - Getting TCPMessageReader for class java.lang.String
+11:50:30.162 [TCPServer_SendThread-2   ] DEBUG Writers              - Constructed TCPMessageWriter for class java.lang.String: MessageWriterS
+11:50:30.162 [TCPServer_RecvThread-2   ] DEBUG Readers              - Constructed MessageReader for class java.lang.String: MessageReaderS
+11:50:35.835 [JavaFX Application Thread] DEBUG LoopRunner           - Resuming loop
+11:51:13.124 [JavaFX Application Thread] DEBUG Input                - Mocking key press: W
+11:51:13.194 [JavaFX Application Thread] DEBUG Input                - Mocking key release: W
+11:51:13.374 [JavaFX Application Thread] DEBUG Input                - Mocking key press: S
+11:51:13.500 [JavaFX Application Thread] DEBUG Input                - Mocking key release: S
+11:51:13.678 [JavaFX Application Thread] DEBUG Input                - Mocking key press: W
+11:51:13.752 [JavaFX Application Thread] DEBUG Input                - Mocking key release: W
+11:51:14.846 [JavaFX Application Thread] DEBUG Input                - Mocking key press: S
+11:51:14.933 [JavaFX Application Thread] DEBUG Input                - Mocking key release: S
+11:51:15.451 [JavaFX Application Thread] DEBUG Input                - Mocking key press: W
+11:51:15.646 [JavaFX Application Thread] DEBUG Input                - Mocking key release: W
+11:51:15.952 [JavaFX Application Thread] DEBUG Input                - Mocking key press: S
+11:51:16.111 [JavaFX Application Thread] DEBUG Input                - Mocking key release: S
+11:51:16.453 [JavaFX Application Thread] DEBUG Input                - Mocking key press: W
+11:51:16.577 [JavaFX Application Thread] DEBUG Input                - Mocking key release: W
+11:51:17.424 [JavaFX Application Thread] DEBUG Input                - Mocking key press: W
+11:51:17.513 [JavaFX Application Thread] DEBUG Input                - Mocking key release: W
+11:51:17.709 [JavaFX Application Thread] DEBUG Input                - Mocking key press: S
+11:51:17.762 [JavaFX Application Thread] DEBUG Input                - Mocking key release: S
+11:51:18.227 [JavaFX Application Thread] DEBUG Input                - Mocking key press: S
+11:51:18.298 [JavaFX Application Thread] DEBUG Input                - Mocking key release: S
+11:51:18.567 [JavaFX Application Thread] DEBUG Input                - Mocking key press: S
+11:51:18.708 [JavaFX Application Thread] DEBUG Input                - Mocking key release: S
+11:51:19.354 [JavaFX Application Thread] DEBUG Input                - Mocking key press: W
+11:51:19.427 [JavaFX Application Thread] DEBUG Input                - Mocking key release: W
+11:51:20.317 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:20.406 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:20.515 [JavaFX Application Thread] DEBUG Input                - Mocking key press: K
+11:51:20.696 [JavaFX Application Thread] DEBUG Input                - Mocking key release: K
+11:51:20.789 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:21.058 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:21.149 [JavaFX Application Thread] DEBUG Input                - Mocking key press: K
+11:51:21.490 [JavaFX Application Thread] DEBUG Input                - Mocking key release: K
+11:51:21.675 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:21.944 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:22.070 [JavaFX Application Thread] DEBUG Input                - Mocking key press: K
+11:51:22.233 [JavaFX Application Thread] DEBUG Input                - Mocking key release: K
+11:51:22.287 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:22.499 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:22.553 [JavaFX Application Thread] DEBUG Input                - Mocking key press: K
+11:51:22.732 [JavaFX Application Thread] DEBUG Input                - Mocking key release: K
+11:51:22.894 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:23.035 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:23.142 [JavaFX Application Thread] DEBUG Input                - Mocking key press: K
+11:51:23.324 [JavaFX Application Thread] DEBUG Input                - Mocking key release: K
+11:51:23.361 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:23.540 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:23.576 [JavaFX Application Thread] DEBUG Input                - Mocking key press: K
+11:51:23.809 [JavaFX Application Thread] DEBUG Input                - Mocking key release: K
+11:51:24.027 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:24.207 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:24.357 [JavaFX Application Thread] DEBUG Input                - Mocking key press: K
+11:51:24.483 [JavaFX Application Thread] DEBUG Input                - Mocking key release: K
+11:51:24.688 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:24.707 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:24.832 [JavaFX Application Thread] DEBUG Input                - Mocking key press: K
+11:51:24.938 [JavaFX Application Thread] DEBUG Input                - Mocking key release: K
+11:51:26.102 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:26.136 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:27.948 [JavaFX Application Thread] DEBUG Input                - Mocking key press: S
+11:51:28.021 [JavaFX Application Thread] DEBUG Input                - Mocking key release: S
+11:51:30.310 [JavaFX Application Thread] DEBUG Input                - Mocking key press: S
+11:51:30.324 [JavaFX Application Thread] DEBUG Input                - Mocking key release: S
+11:51:35.227 [JavaFX Application Thread] DEBUG Input                - Mocking key press: W
+11:51:35.443 [JavaFX Application Thread] DEBUG Input                - Mocking key release: W
+11:51:35.677 [JavaFX Application Thread] DEBUG Input                - Mocking key press: S
+11:51:35.766 [JavaFX Application Thread] DEBUG Input                - Mocking key release: S
+11:51:36.161 [JavaFX Application Thread] DEBUG Input                - Mocking key press: W
+11:51:36.289 [JavaFX Application Thread] DEBUG Input                - Mocking key release: W
+11:51:37.114 [JavaFX Application Thread] DEBUG Input                - Mocking key press: W
+11:51:37.204 [JavaFX Application Thread] DEBUG Input                - Mocking key release: W
+11:51:37.401 [JavaFX Application Thread] DEBUG Input                - Mocking key press: S
+11:51:37.508 [JavaFX Application Thread] DEBUG Input                - Mocking key release: S
+11:51:37.855 [JavaFX Application Thread] DEBUG Input                - Mocking key press: W
+11:51:37.961 [JavaFX Application Thread] DEBUG Input                - Mocking key release: W
+11:51:40.127 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:40.451 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:41.041 [JavaFX Application Thread] DEBUG Input                - Mocking key press: K
+11:51:41.131 [JavaFX Application Thread] DEBUG Input                - Mocking key release: K
+11:51:41.311 [JavaFX Application Thread] DEBUG Input                - Mocking key press: I
+11:51:41.437 [JavaFX Application Thread] DEBUG Input                - Mocking key release: I
+11:51:52.570 [JavaFX Application Thread] DEBUG FXGLApplication      - Exiting FXGL
+11:51:52.570 [JavaFX Application Thread] DEBUG LoopRunner           - Stopping loop
+11:51:52.570 [JavaFX Application Thread] DEBUG SystemBundleService  - Saving FXGL system data
+11:51:52.572 [JavaFX Application Thread] DEBUG FileSystemAccess     - Writing to: C:\Users\danie\Downloads\SDLMultiplayerProject-main\CI628-PongServer-master\system\fxgl.bundle
+11:51:52.574 [JavaFX Application Thread] DEBUG Async                - Shutting down background threads
+11:51:52.574 [JavaFX Application Thread] DEBUG MainWindow           - Closing main window
+11:51:52.587 [JavaFX Application Thread] DEBUG Logger               - Closing Logger
