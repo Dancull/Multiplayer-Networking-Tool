@@ -10,7 +10,7 @@ A cross-language multiplayer reimagining of the classic Pong, featuring a C++ SD
 * Cross-Language Networking: C++ client and Java server designed for interoperability.
 
 ## Prerequisites
-* Java 17+ (for the FXGL server)
+* Java 17+ 
 * C++17 compiler (for the SDL2 client)
 * SDL2 and SDL2_Mixer installed
 * Maven (for Java server build)
@@ -35,7 +35,7 @@ This project supports running the Java server and C++ client separately.
 
 | Command                     | Description                                             |
 | --------------------------- | ------------------------------------------------------- |
-| `java -jar pong-server.jar` | Starts the FXGL TCP server on port 55555                |
+| `java -jar pong-server.jar` | Starts the TCP server on port 55555                |
 | `./pong-client`             | Launches the C++ SDL2 client and connects to the server |
 
 Controls:
